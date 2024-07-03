@@ -1,9 +1,46 @@
 .screen{
     /* background-color: rgb(209, 219, 219); */
-    background-color: rgb(134, 143, 143);
+    background-color: rgb(154, 161, 161);
     width: 92%;
     height: 20%;
     margin: 10px;
     outline: 1px solid black;
     outline-offset: -2px;
+}
+
+.display-screen{
+    background-color: rgb(134, 143, 143);
+    position: relative;
+    right: -5.5px;
+    bottom: -7px;
+    width: 96%;
+    height: 80%;
+}
+
+#shift-mode-screen{
+    background-color: rgb(154, 161, 161);
+    /* outline: 1px solid rgb(209, 219, 219); */
+    /* outline-offset: -10px; */
+    position: relative;
+    bottom: -3px;
+    right: -2px;
+    height: 10px;
+    width: 98.2%;
+    color: rgb(0, 0, 26);
+    display: flex;
+    font-size: 8.2px;
+}
+
+#shift-mode-screen span{
+
+}
+
+.screen-section{
+    min-height: 33%;
+    font-size: 25px;
+}
+
+.has-border{
+    border: 1px solid black;
+    font-size: 6px;
 }
