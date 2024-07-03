@@ -1,0 +1,44 @@
+.mid{
+    position: relative;
+    top: -31px;
+    font-size: 3px;
+}
+
+.second-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.functions{
+    background-color: rgb(66, 66, 66);
+    outline: 1px solid rgb(35, 66, 48);
+    border-radius: 8px 10px 9px 12px;
+    outline-offset: -2px;
+    margin: 5px 2px;
+    min-width: 44px;
+    min-height: 24px;
+}
+
+#log-value{
+    display: inline-block;
+    border: 1px solid white;
+    min-width: 5.5px;
+    min-height: 3px;
+    padding: 1.1px;
+    transform: rotate(90deg);
+}
+
+#sqare-root-value{
+    border-top: 1px solid white;
+}
+
+#fraction-button{
+    position: relative;
+    top: -6px;
+}
+
+.fourth-line{
+    position: relative;
+    top: -4.5px;
+}
+

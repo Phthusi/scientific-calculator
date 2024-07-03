@@ -1,0 +1,39 @@
+.circle{
+    border-radius: 500px;
+    background-color: rgb(80, 80, 218);
+    width: 75px;
+    height: 75px;
+}
+
+.pointer{
+    border-radius: 0px 0px 60px 60px;
+    height: 10px;
+    border-color: rgb(121, 121, 121);
+    background-color: rgba(36, 36, 100, 0.5);
+}
+
+#bottom-nav{
+    position: relative;
+    bottom: -18px;
+    /* right: -2px; */
+}
+
+#left-nav{
+    position: relative;
+    bottom: -25px;
+    transform: rotate(90deg);
+}
+
+#top-nav{
+    position: relative;
+    right: -9px;
+    top: -4px;
+    transform: rotate(180deg);
+}
+
+#right-nav{
+    position: relative;
+    bottom: -26px;
+    transform: rotate(-90deg);
+    right: -17px;
+}

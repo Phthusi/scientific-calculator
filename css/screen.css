@@ -1,0 +1,9 @@
+.screen{
+    /* background-color: rgb(209, 219, 219); */
+    background-color: rgb(134, 143, 143);
+    width: 92%;
+    height: 20%;
+    margin: 10px;
+    outline: 1px solid black;
+    outline-offset: -2px;
+}

@@ -1,0 +1,27 @@
+@import 'circle.css';
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.roundish-button{
+    border-radius: 50px;
+    height: 15px;
+    padding: 14px;
+    width: 45px;
+    background-color: rgb(80, 80, 218);
+}
+
+#fraction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 9px;
+}
+
+#numerator{
+    border-bottom: 1px solid white;
+}
