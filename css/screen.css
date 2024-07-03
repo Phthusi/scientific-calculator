@@ -23,16 +23,25 @@
     /* outline-offset: -10px; */
     position: relative;
     bottom: -3px;
-    right: -2px;
+    right: -3.2px;
     height: 10px;
-    width: 98.2%;
+    width: 97%;
     color: rgb(0, 0, 26);
     display: flex;
     font-size: 8.2px;
 }
 
-#shift-mode-screen span{
+.ans-screen-section{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* border: 1px solid black; */
+}
 
+.ans-screen{
+    align-self: flex-start;
+    /* border: 1px solid black; */
+    margin-right: 1px;
 }
 
 .screen-section{
