@@ -1,6 +1,7 @@
 export class Cursor{
-    constructor(){
+    constructor(topDisplayScreen){
         this.cursor = '|';
+        this.displayScreen = topDisplayScreen;
         this.cursorIndex = 0;
         this.cursorInterval;
         this.displayScreen = document.querySelector('.top-display-screen');
@@ -12,19 +13,22 @@ export class Cursor{
     }
 
     putCursorToIndex(text){
-        let myText = [...text];
-        myText.splice(this.cursorIndex,1,this.cursor);
-        return myText.join('');
+        let myText = [...text.replace('|','')];
+        if(this.cursor) 
+            myText.splice(this.cursorIndex,0,'|')
+        return myText.join('')
     }
 
     blink(){ 
         this.cursorInterval = setInterval(()=>{
             this.displayScreen.innerHTML = this.putCursorToIndex(this.displayScreen.innerText);
             this.changeCursor();
-        },850);
+        },460);
     }
 
-    stop_blink(){
+    stopBlinking(){
         clearInterval(this.cursorInterval);
     }
+
+    
 }
