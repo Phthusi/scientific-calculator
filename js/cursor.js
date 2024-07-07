@@ -23,7 +23,7 @@ export class Cursor{
         this.cursorInterval = setInterval(()=>{
             this.displayScreen.innerHTML = this.putCursorToIndex(this.displayScreen.innerText);
             this.changeCursor();
-        },460);
+        },600);
     }
 
     stopBlinking(){
