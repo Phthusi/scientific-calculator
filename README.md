@@ -7,10 +7,10 @@ Project Structure
 The project is organized as follows:
       C:.
       ├───css
-      │   ├───bottom.css
-      │   ├───calculator.css
-      │   ├───circle.css
-      │   ├───mid.css
+      │   ├───bottom.css                                                                                          
+      │   ├───calculator.css                                                                                             
+      │   ├───circle.css                                                                                                                       
+      │   ├───mid.css                                                                                                                
       │   ├───screen.css
       │   ├───top.css
       │   └───toptext.css
