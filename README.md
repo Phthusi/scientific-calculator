@@ -4,18 +4,18 @@ This project is a web-based calculator that emulates the functionality and desig
 It is built using HTML, CSS, and JavaScript, and aims to provide an interactive user experience with a range of mathematical functions.
 
 Project Structure
-The project is organized as follows:
-      C:.
-      ├───css
-      │   ├───bottom.css                                                                                          
-      │   ├───calculator.css                                                                                             
+The project is organized as follows:                                                                                                 
+      C:.                                                                                                                              
+      ├───css                                                               
+      │   ├───bottom.css                                                                                                                                                          
+      │   ├───calculator.css                                                                                                                                                               
       │   ├───circle.css                                                                                                                       
       │   ├───mid.css                                                                                                                
       │   ├───screen.css
-      │   ├───top.css
-      │   └───toptext.css
-      └───js
-          └───calculator.js
+      │   ├───top.css                                                                                                                                     
+      │   └───toptext.css                                                                                                                                
+      └───js                                                                                                                                                                 
+          └───calculator.js                                                                                                                                                         
 
 - HTML: The main structure and content of the calculator are defined in the calculator.html file.
 - CSS: The styling of the calculator is split across several CSS files, each handling different aspects of the design:
